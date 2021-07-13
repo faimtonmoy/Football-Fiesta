@@ -190,12 +190,12 @@ body{
 .footer-icon img{
     height: 32px;
     width: 32px;
-    padding: 5px;
+    padding: 10px;
 }
 .footer-paragraph{
     font-size: 18px;
     color: #000000;
     align-items: center;
     font-size: 18px;
-    padding-left: 130px;
+    padding-left: 140px;
 }
