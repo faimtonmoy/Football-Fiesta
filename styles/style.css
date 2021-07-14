@@ -255,6 +255,9 @@ body{
         width: 100%;
         height: 695px;
     }
+    hr{
+        display: none;
+    }
    
     .navbar-left{
         padding-right: 100px;
@@ -347,7 +350,7 @@ body{
         margin-top: 2px;
     }
     .footer-size{
-        margin-top: 20px;
+        margin-top: 200px;
         height: 400px;
     }
     .footer-image img{
