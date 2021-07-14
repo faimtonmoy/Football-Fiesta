@@ -293,7 +293,7 @@ body{
         flex-direction: column;
         align-items: flex-start;
         margin-left: 20px;
-        height: 400px;
+        height: 600px;
     }
     .highlights-left, .ticket-sell{
         width: 329px;
@@ -354,8 +354,8 @@ body{
         margin-top: 2px;
     }
     .footer-size{
-        
-        height: 400px;
+        margin-top: 50px;
+        height: 250px;
     }
     .footer-image img{
         width: 270px;
@@ -366,7 +366,7 @@ body{
     }
     .footer-icon{
         margin-top: 20px;
-        padding-left:55px ;
+        padding-left:60px ;
     }
     .footer-icon img{
         width: 170px;
@@ -375,6 +375,6 @@ body{
     }
     .footer-paragraph{
         margin-top: 20px;
-        padding-left: 40px;
+        padding-left: 45px;
     }
 }
