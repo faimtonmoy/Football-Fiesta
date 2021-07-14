@@ -3,6 +3,13 @@ body{
     margin: 0;
     background-color: #FFF;
 }
+.container, .highlights, .info-container{
+    background-color: #FFFFFF;
+    width: 1050px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+    
+}
 /* Navbar design */
 .navbar-design{
     background-color: #11005f;
@@ -57,13 +64,7 @@ body{
     
 }
 /* Player Description Design */
-.container{
-    background-color: #FFFFFF;
-    width: 1050px;
-    margin-left: 160px;
-    margin-bottom: 20px;
-    
-}
+
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -104,16 +105,12 @@ body{
     margin-top: 0px;
 }
 /* Highlights */
-.highlights{
-    background-color: #FFFFFF;
-    width: 1050px;
-    margin-left: 160px;
-    margin-bottom: 20px;
+.highlights, .info-container{
     height: 670px;
     display: flex;
     align-items: center;
 }
-.highlights-left{
+.highlights-left, .ticket-sell {
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
@@ -121,12 +118,12 @@ body{
     height: 310px;
     padding:0;
 }
-.highlights-left-description{
+.highlights-left-description, .ticket-sell-description{
     width: 466px;
     height: 241px;
     margin-bottom: 0;
 } 
-.highlights-title{    
+.highlights-title, .ticket-title{    
     width: 466px;
     height: 120px;
     font-weight: 700;
@@ -141,7 +138,7 @@ body{
     margin-left:0 ;
     
 }
-.highlights-button-link{
+.highlights-button-link, .ticket-button-link{
     background-color: #E02C6D;
     display: flex;    
     flex-direction: row;    
@@ -149,13 +146,13 @@ body{
     height: 44px;
     margin-top:10px;    
 }
-.highlights-link-description{
+.highlights-link-description, .ticket-link-description{
     text-decoration: none;
     color: white;
     align-items: center;
     padding: 10px 24px;
 }
-.highlights-right img{
+.highlights-right img, .venue img{
     width: 567px;
     height: 427px;
     padding-left: 69px;
@@ -205,6 +202,7 @@ body{
     margin-top: 8px;
     color: rgb(15, 1, 1);
 }
+/* Information about the tournament */
 
 /* footer */
 .footer-items{
@@ -291,36 +289,42 @@ body{
         width: 300px;
         height: 400px;
     }
-    .highlights{
+    .highlights, .info-container{
         flex-direction: column;
         align-items: flex-start;
         margin-left: 20px;
         height: 600px;
     }
-    .highlights-left{
+    .highlights-left, .ticket-sell{
         width: 329px;
         height: 299px;
     }
-    .highlights-left-description{
+    .highlights-left-description, .ticket-sell-description{
         width: 329px;
         height: 231px;
     }
-    .highlights-title{
+    .highlights-title, .ticket-title{
         width: 292px;
         height: 80px;
         font-size: 30px;
+    }
+    .ticket-title{
+        margin-bottom: 0;
     }
     .highlights-paragraph{
         width: 329px;
         height: 143px;
         font-size: 16px;
     }
-    .highlights-button-link{
+    .highlights-button-link, .ticket-button-link{
         width: 173px;
         height: 44px;
         margin-top: 0;
     }
-    .highlights-right img{
+    .ticket-button-link{
+        margin-top: 0;
+    }
+    .highlights-right img, .venue img{
         width: 320px;
         height: 248px;
         margin-left: 0px;
