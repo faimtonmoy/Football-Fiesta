@@ -31,6 +31,11 @@ body{
     height: 230px;
     padding-left: 60px; 
 }
+.navbar-title:hover{
+    padding-bottom: 50px;
+    transition: padding-bottom 2s ease-in;
+}
+
 .button-link{
     background-color: #E02C6D;
     display: flex;    
@@ -63,6 +68,11 @@ body{
     padding-left: 80px;
     
 }
+.navbar-right img:hover{
+    transform: scale(1.4);
+    transition: transform 5s ease-in-out;
+}
+
 /* Player Description Design */
 
 .players{
