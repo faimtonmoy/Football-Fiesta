@@ -293,7 +293,7 @@ body{
         flex-direction: column;
         align-items: flex-start;
         margin-left: 20px;
-        height: 600px;
+        height: 400px;
     }
     .highlights-left, .ticket-sell{
         width: 329px;
@@ -354,14 +354,14 @@ body{
         margin-top: 2px;
     }
     .footer-size{
-        margin-top: 200px;
+        
         height: 400px;
     }
     .footer-image img{
         width: 270px;
         height: 65px;
         padding-left: 20px;
-        margin-top: 20px;
+       
 
     }
     .footer-icon{
